@@ -36,7 +36,7 @@ if st.button("Провери резултата"):
     if q5 == 5:
         score = score + 1
 
-    if score == 5:
+    if score == "5":
         st.write("Отличен! Резултат: 5 от 5.")
     else:
         st.write("Вашият резултат е: " + str(score) + " от 5. Опитайте отново.")
